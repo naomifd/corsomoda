@@ -1,0 +1,978 @@
+{
+  "settings": {
+    "name": "corsomoda",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "spacem",
+      "title": "SpaceM",
+      "styling": {
+        "primaryColor": "#d900ed",
+        "secondaryColor": "#e94dff",
+        "successColor": "#525252",
+        "infoColor": "#1A5CEB",
+        "warningColor": "#E0C119",
+        "dangerColor": "#000000",
+        "titleFont": "Arapey",
+        "subtitleFont": "Lato",
+        "textFont": "Lato",
+        "isRoundedButtons": true
+      },
+      "additionalSetColors": [
+        "#fcdcff",
+        "#f5f5f5",
+        "#f8f8f8",
+        "#2d2d2d",
+        "#525252",
+        "#cccccc"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "favicon": "",
+    "noImageResize": "",
+    "scrollAnimation": "true",
+    "cookiesAlert": "We use cookies to give you the best experience. ",
+    "siteUrl": "undefined",
+    "mcShopcart": {
+      "email": "imoanaboutique@gmail.com",
+      "iconSize": "50",
+      "iconColor": "#FFFFFF",
+      "backColor": "#000000",
+      "topOffset": "120",
+      "rightOffset": "20",
+      "siteWidth": "1800",
+      "counterSize": "12",
+      "counterColor": "#FFFFFF",
+      "counterBack": "#F97352",
+      "checkoutButton": "Paga con"
+    },
+    "versionFirst": "4.7.1",
+    "uniqCompNum": 42,
+    "versionPublish": "4.8.1",
+    "screenshot": "screenshot.png",
+    "siteFonts": []
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n<script>\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client: \"ca-pub-6309974730604714\",\n    enable_page_level_ads: true\n  });\n</script>",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": true,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1081-2000x2310.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.7"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-size: 72px; font-weight: normal;\">Corso di modellistica e confezione</span>",
+          "text": "In questo portale potrai imparare facilmente tutte le tecniche di modellistica e confezione richieste nelle principali scuole di moda.\n<br>Completa il form a fondo pagina se desideri ricevere la chiave di accesso GRATUITA alle lezioni.",
+          "buttons": "<a data-app-btn=\"true\" href=\"index.html#subscribe2-11\" class=\"btn btn-black\" role=\"button\">form</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-14",
+          "_styles": {
+            "SPAN": {
+              "font-size": "80px",
+              "color": "#000000"
+            },
+            "I": {
+              "font-size": "72px"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2018-04-18-320x310.png",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "7 giorni gratuiti",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-q"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "showTitle": true,
+            "showSeparator": true,
+            "showSubtitle": false,
+            "showText": true,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1081-2000x2310.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#f8f8f8",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.8"
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Scuole </i></span><br>",
+          "subtitle": "Partner",
+          "text": "Di seguito sono riportate le scuole di moda su territorio italiano che offrono un programma di insegnamento <br>delle discipline della moda perfettamente corrispondenti al nostro metodo di formazione.<br>Elenco in continuo aggiornamento.&nbsp;<br><br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-5"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "showArrows": true,
+            "showBullets": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1081-2000x2310.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#f8f8f8",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.8",
+            "visibleSlides": "1",
+            "slides": [
+              {
+                "active": false,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/cat-da-siena-320x120.png",
+                    "link": "http://www.istitutofortuny.gov.it/",
+                    "active": true,
+                    "alt": "",
+                    "title": ""
+                  }
+                }
+              },
+              {
+                "active": true,
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/rep-italiana-fortuny-120px-121x120.png",
+                    "link": "http://www.istitutofortuny.gov.it/",
+                    "active": true,
+                    "alt": "",
+                    "title": ""
+                  }
+                }
+              }
+            ]
+          },
+          "title": "Our clients",
+          "subtitle": "\"Our clients\" carousel with adjustable number of visible clients.",
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left-white.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right-white.svg",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "slider6",
+          "_anchor": "slider6-2"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "showTitle": true,
+            "showSeparator": true,
+            "showSubtitle": false,
+            "showText": false,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "<i style=\"font-weight: normal;\">Gallery</i>",
+          "subtitle": "Subtitle",
+          "text": "Alcune immagini tratte dalle nostre videolezioni&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-a"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "spacing": "6",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/table.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/table-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/windows-books.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/windows-books-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/working-area.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/working-area-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/table.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/table-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg",
+          "allItem": "All",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-6"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 0,
+            "showTitle": true,
+            "showSeparator": true,
+            "showSubtitle": false,
+            "showText": false,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Vantaggi</i></span>",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-9"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showImages": true,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1081-2000x2310.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#f8f8f8",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.75
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "timer",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "index.html#pricing-table1-i",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "file",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "index.html#pricing-table1-i",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "info",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "index.html#pricing-table1-i",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "cash",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "index.html#pricing-table1-i",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "lightbulb",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "presentation",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "title": "<em>Our</em> Design",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque elementum volutpat massa ac interdum velit imperdiet vel lacinia massa viverra dolor quis congue pellentesque.",
+          "title1": "quando e dove vuoi",
+          "title2": "materiali",
+          "title3": "docente personale",
+          "title4": "&nbsp;economico",
+          "title5": "innovation ideas",
+          "title6": "business analysis",
+          "text1": "Decidi tu quando e dove studiare e <br>seguire le videolezioni: puoi farlo<br><b> 24 ore su 24 -7 giorni su 7&nbsp;</b>",
+          "text2": "Scaricherai esercitazioni e<b> file</b> molto utili che potrai utilizzare per apprendere in maniera piú completa e veloce",
+          "text3": "Avrai a tua completa disposizione un Docente altamente qualificato che potrai <b>contattare in ogni momento</b>",
+          "text4": "Non spenderai piú tanti soldi in ripetizioni! <b>Risparmierai</b> &nbsp;per poter fare tante altre cose divertenti.<b>&nbsp;&nbsp;</b>",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus saepe illum, ipsa voluptas animi laborum? Veniam delectus totam, voluptatem maxime!",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores similique itaque possimus hic. Saepe et deleniti fugit qui, odit tenetur?",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-b"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "showTitle": true,
+            "showSeparator": true,
+            "showSubtitle": false,
+            "showText": true,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Acquista</i></span>",
+          "subtitle": "Subtitle",
+          "text": "Potete acquistare diversi pacchetti oppure potete scegliere il pacchetto completo.<br>Il costo che trovate nelle seguenti tabelle si riferisce alle lezioni comprensive dei file e materiali di studio.<br>Ciascun pacchetto comprende dalle 30 alle 35 lezioni, per un totale di 100 videocorsi.<br>La licenza ha validitá annuale. Potete richiedere una prova gratuita di compilando il<b> <a href=\"index.html#header2-1\">form</a> </b>a fondo pagina<b>.</b><br><br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-j"
+        },
+        {
+          "_styles": {
+            ".mbr-section__container .mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section__container .mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            },
+            ".mbr-price-figure": {
+              "font-size": "60px"
+            }
+          },
+          "_params": {
+            "firstType": "",
+            "secondType": "",
+            "thirdType": "",
+            "fourthType": "bg-primary",
+            "paddingTop": "2",
+            "paddingBottom": 3,
+            "showButtons": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1081-2000x2310.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#757575",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "CORSO 1<br>gonne e pantaloni",
+          "title2": "CORSO 2<br>corpini e abiti",
+          "title3": "CORSO 3<br>camicie&nbsp;",
+          "title4": "TUTTI I CORSI",
+          "subtitle1": "Description",
+          "subtitle2": "Description",
+          "subtitle3": "Description",
+          "subtitle4": "Description",
+          "label1": "Most Popular",
+          "label2": "Most Popular",
+          "label3": "Most Popular",
+          "label4": "Piú acquistato",
+          "currency1": "",
+          "currency2": "",
+          "currency3": "",
+          "currency4": "",
+          "price1": "120 €",
+          "price2": "150&nbsp;€",
+          "price3": "180&nbsp;€<br>",
+          "price4": "<span style=\"font-weight: normal;\">400&nbsp;€</span>",
+          "period1": "",
+          "period2": "",
+          "period3": "",
+          "period4": "anziché 450&nbsp;€<br>",
+          "description1": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "description2": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "description3": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "description4": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Il corso 1 comprende il programma scolastico del primo e secondo anno.\n</li><li class=\"list-group-item\">Compila il form per richiedere la&nbsp;</li><li class=\"list-group-item\"><b><a href=\"index.html#header2-1\">Prova GRATIS</a></b></li><li class=\"list-group-item\">Totale 30 lezioni</li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Il corso 2 comprende il programma scolastico affrontato il terzo anno. </li><li class=\"list-group-item\">Compila il form per richiedere la&nbsp;</li><li class=\"list-group-item\"><span style=\"background-color: transparent;\"><b><a href=\"index.html#subscribe2-11\">Prova GRATIS</a></b></span></li><li class=\"list-group-item\"><span style=\"background-color: transparent;\">Totale 35 lezioni</span><br></li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Il corso 3 comprende il programma scolastico del quarto e quinto anno.</li><li class=\"list-group-item\">Compila il form per richiedere la&nbsp;</li><li class=\"list-group-item\"><b><a href=\"index.html#subscribe2-11\">Prova GRATIS</a></b></li><li class=\"list-group-item\">Totale 35 lezioni</li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Il pacchetto include le chiavi di accesso a tutti e tre i corsi, dal primo al quinto anno scolastico.</li><li class=\"list-group-item\"><br></li><li class=\"list-group-item\">Totale 100 lezioni</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=120&amp;item_name=CORSO1&amp;currency_code=EUR\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">ACQUISTA</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=150&amp;item_name=CORSO2&amp;currency_code=EUR\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">ACQUISTA</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=180&amp;item_name=CORSO3&amp;currency_code=EUR\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">acquista</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=400&amp;item_name=TUTTI+I+CORSI&amp;currency_code=EUR\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">ACQUISTA</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-i"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showSeparator": true,
+            "showSubtitle": false,
+            "showText": false,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#f8f8f8",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-k"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "columns": "2",
+            "tabsLeft": "3",
+            "tabsCenter": "3",
+            "tabsRight": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">ho effettuato l'accesso ma non riesco a vedere i video, come fare?<br><span></span></a>",
+          "textL1": "<p>Per visualizzare correttamente i video dovete iscrivervi alla prova gratuita con una mail GOOGLE. Assicuratevi di aver effettuato con la medesima email l'accesso alla piattaforma YOUTUBE.</p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">le lezioni trattano i medesimi argomenti che affronta la scuola?<br><span></span></a>",
+          "textL2": "<p>Certamente! I video sono stati approvati direttamante da tutti i docenti in carico nella scuola capofila e sono stati realizzati da una docente.</p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">ho acquistato, e adesso?<br><span></span></a>",
+          "textL3": "<p>Attendi che ti venga spedita la mail con le credenziali di accesso. E' una operazione che deve essere fatta manualmente.</p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textL4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textL5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">in cosa consiste la prova gratuita?<span></span></a>",
+          "textC1": "<p>La prova gratuita consiste nell'accesso totale e temporaneo all'area riservata di tutti e tre i corsi, giusto per capire se questi sono adatti alle vostre esigenze. </p><br><p>Ha validitá di 30 minuti, dunque non perdere tempo una volta ricevuto il codice!</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">quanto dura la mia licenza, una volta acquistata?<span></span></a>",
+          "textC2": "<p>La licenza ha validitá annuale. Se la rinnovi prima della scadenza avrai ogni anno la licenza successiva ad un prezzo scontato del 10% fino ad un massimo del 50% (5 &nbsp;rinnovi)</p>",
+          "titleC3": "",
+          "textC3": "",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "accordion1",
+          "_anchor": "accordion1-c",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1081-2000x2310.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/embed/NqagdshRCwo?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://youtu.be/NqagdshRCwo",
+              "width": 1280,
+              "height": 720
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.6",
+            "googleMap": {
+              "address": "",
+              "placeId": "",
+              "state": "error",
+              "stateDetails": "Invalid request"
+            }
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Prova Gratuita</span>",
+          "text": "Lorem ipsum dolor sit amet, consec tetur adip iscing elit. Curabitur feugiat feugiat and brane in bibendum ",
+          "form": {
+            "title": "MESSAGE",
+            "action": "naomimoda94@hotmail.it",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nome*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Codice fiscale*"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Richieste paricolari"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" href=\"mailto:naomimoda94@hotmail.it\" class=\"btn btn-black\" type=\"submit\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">richiedi</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "subscribe2",
+          "_anchor": "subscribe2-11",
+          "_styles": {
+            "H1": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#212121"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "<a href=\"#top\">TORNA SU</a><br><br><br>&nbsp;<br><span style=\"font-weight: normal;\"><a href=\"https://imoana.it\" target=\"_blank\" class=\"text-success\">2018 IMOANA</a></span><br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-g",
+          "_styles": {
+            "SPAN": {
+              "font-size": "12px"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#757575"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#757575"
+            },
+            ".link, .dropdown-item": {
+              "color": "#757575"
+            },
+            ".link": {
+              "font-size": "0.7rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.758rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#757575",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#757575"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#757575",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-5\">SCUOLE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-a\">GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-9\">VANTAGGI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-j\">ACQUISTA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-k\">FAQ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MEMBRI</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://corsomoda1.imoana.it/\" target=\"_blank\">CORSO 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">CORSO 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">CORSO 3</a></div></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/inizio-logo-1piccolo-247x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://corsomoda.imoana.it",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-p"
+        }
+      ]
+    }
+  }
+}
