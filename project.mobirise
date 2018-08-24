@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "corsomoda",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "spacem",
       "title": "SpaceM",
@@ -23,7 +23,8 @@
         "#f8f8f8",
         "#2d2d2d",
         "#525252",
-        "#cccccc"
+        "#cccccc",
+        "#ebfff4"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -46,7 +47,7 @@
       "checkoutButton": "Paga con"
     },
     "versionFirst": "4.7.1",
-    "uniqCompNum": 42,
+    "uniqCompNum": 83,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png",
     "siteFonts": []
@@ -97,8 +98,8 @@
             }
           },
           "title": "<span style=\"font-size: 72px; font-weight: normal;\">Corso di modellistica e confezione</span>",
-          "text": "In questo portale potrai imparare facilmente tutte le tecniche di modellistica e confezione richieste nelle principali scuole di moda.\n<br>Completa il form a fondo pagina se desideri ricevere la chiave di accesso GRATUITA alle lezioni.",
-          "buttons": "<a data-app-btn=\"true\" href=\"index.html#subscribe2-11\" class=\"btn btn-black\" role=\"button\">form</a>",
+          "text": "In questo portale potrai imparare facilmente tutte le tecniche di modellistica e confezione richieste nelle principali scuole di moda.\n<br>Completa il <b>form a fondo pagina</b> se desideri ricevere la chiave di accesso GRATUITA alla prima lezione (a tua scelta e per un massimo di 100 nuovi iscritti).",
+          "buttons": "<a data-app-btn=\"true\" href=\"page1.html\" class=\"btn btn-black\" role=\"button\">SEGUI IL CORSO</a>",
           "alias": "spacem/components",
           "_tags": [
             "Tema"
@@ -115,6 +116,11 @@
             },
             "P": {
               "color": "#000000"
+            },
+            ".btn": {
+              "font-size": "20px",
+              "font-family": "'Source Sans Pro', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700"
             }
           }
         },
@@ -141,7 +147,12 @@
             "Tema"
           ],
           "_name": "image1",
-          "_anchor": "image1-q"
+          "_anchor": "image1-q",
+          "_customHTML": "<section class=\"mbr-section mbr-section--no-padding mbr-figure--caption-outside-bottom image image1\" data-rv-view=\"219\">\n    <div class=\"mbr-figure\">\n        <div><img src=\"@PROJECT_PATH@/assets/images/2018-04-18-320x310.png\"></div>\n        \n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
         },
         {
           "_params": {
@@ -174,7 +185,12 @@
             "Tema"
           ],
           "_name": "title4",
-          "_anchor": "title4-5"
+          "_anchor": "title4-5",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative title3\" data-rv-view=\"221\" style=\"background-color: rgb(248, 248, 248);\">\n        \n    <div id=\"contact-info\" style=\"padding-top: 50px; padding-bottom: 0px;\">\n        <div class=\"container\">\n            <div class=\"row\">\n                 \n                <div class=\"col-xs-12\">\n                   <div class=\"page_head title-block\">\n                        \n                        <h1 class=\"styled mbr-editable-content\" code-editable-id=\"20\"><span style=\"font-weight: normal;\"><em>Scuole </em></span><br></h1>\n                        <div class=\"separator\"></div>\n                        <p class=\"mbr-editable-content\" code-editable-id=\"21\">Di seguito sono riportate le scuole di moda su territorio italiano che offrono un programma di insegnamento <br>delle discipline della moda perfettamente corrispondenti al nostro metodo di formazione.<br>Elenco in continuo aggiornamento.&nbsp;<br><br></p>\n                        \n                    </div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
         },
         {
           "_params": {
@@ -268,7 +284,12 @@
             "Tema"
           ],
           "_name": "title4",
-          "_anchor": "title4-a"
+          "_anchor": "title4-a",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative title3\" data-rv-view=\"234\" style=\"background-color: rgb(255, 255, 255);\">\n        \n    <div id=\"contact-info\" style=\"padding-top: 50px; padding-bottom: 0px;\">\n        <div class=\"container\">\n            <div class=\"row\">\n                 \n                <div class=\"col-xs-12\">\n                   <div class=\"page_head title-block\">\n                        \n                        <h1 class=\"styled mbr-editable-content\" code-editable-id=\"27\"><em>Gallery</em></h1>\n                        <div class=\"separator\"></div>\n                        \n                        \n                    </div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
         },
         {
           "_params": {
@@ -337,7 +358,12 @@
             "Tema"
           ],
           "_name": "gallery1",
-          "_anchor": "gallery1-6"
+          "_anchor": "gallery1-6",
+          "_customHTML": "<section class=\"mbr-gallery mbr-section mbr-section--no-padding mbr-slider-carousel gallery gallery1\" data-filter=\"false\" data-rv-view=\"237\" style=\"background-color: rgb(255, 255, 255); padding-top: 0rem; padding-bottom: 0rem;\">\n    <!-- Filter -->\n    \n\n    <!-- Gallery -->\n    <div class=\"mbr-gallery-row\">\n        <div class=\" mbr-gallery-layout-default\">\n            <div>\n                <div>\n                    <div class=\"mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p6\" data-video-url=\"false\" data-tags=\"Beautiful\">\n                        <div href=\"#lb-gallery1-6\" data-slide-to=\"0\" data-toggle=\"modal\">\n                            \n                            \n\n                            <img src=\"@PROJECT_PATH@/assets/images/table-small.jpg\" alt=\"\" title=\"\">\n                            \n                            \n                        </div>\n                    </div><div class=\"mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p6\" data-video-url=\"false\" data-tags=\"Responsive\">\n                        <div href=\"#lb-gallery1-6\" data-slide-to=\"1\" data-toggle=\"modal\">\n                            \n                            \n\n                            <img src=\"@PROJECT_PATH@/assets/images/windows-books-small.jpg\" alt=\"\" title=\"\">\n                            \n                            \n                        </div>\n                    </div><div class=\"mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p6\" data-video-url=\"false\" data-tags=\"Animated\">\n                        <div href=\"#lb-gallery1-6\" data-slide-to=\"2\" data-toggle=\"modal\">\n                            \n                            \n\n                            <img src=\"@PROJECT_PATH@/assets/images/working-area-small.jpg\" alt=\"\" title=\"\">\n                            \n                            \n                        </div>\n                    </div><div class=\"mbr-gallery-item mbr-gallery-item__mobirise3 mbr-gallery-item--p6\" data-video-url=\"false\" data-tags=\"Beautiful\">\n                        <div href=\"#lb-gallery1-6\" data-slide-to=\"3\" data-toggle=\"modal\">\n                            \n                            \n\n                            <img src=\"@PROJECT_PATH@/assets/images/table-small.jpg\" alt=\"\" title=\"\">\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"clearfix\"></div>\n        </div>\n    </div>\n\n    <!-- Lightbox -->\n    <div data-app-prevent-settings=\"\" class=\"mbr-slider modal fade carousel slide\" tabindex=\"-1\" data-keyboard=\"true\" data-interval=\"false\" id=\"lb-gallery1-6\">\n        <div class=\"modal-dialog\">\n            <div class=\"modal-content\">\n                <div class=\"modal-body\">\n                    <ol class=\"carousel-indicators\">\n                        <li data-app-prevent-settings=\"\" data-target=\"#lb-gallery1-6\" data-slide-to=\"0\"></li><li data-app-prevent-settings=\"\" data-target=\"#lb-gallery1-6\" data-slide-to=\"1\"></li><li data-app-prevent-settings=\"\" data-target=\"#lb-gallery1-6\" data-slide-to=\"2\"></li><li data-app-prevent-settings=\"\" data-target=\"#lb-gallery1-6\" class=\" active\" data-slide-to=\"3\"></li>\n                    </ol>\n                    <div class=\"carousel-inner\">\n                        <div class=\"carousel-item\">\n                            <img src=\"@PROJECT_PATH@/assets/images/table.jpg\" alt=\"\" title=\"\">\n                        </div><div class=\"carousel-item\">\n                            <img src=\"@PROJECT_PATH@/assets/images/windows-books.jpg\" alt=\"\" title=\"\">\n                        </div><div class=\"carousel-item\">\n                            <img src=\"@PROJECT_PATH@/assets/images/working-area.jpg\" alt=\"\" title=\"\">\n                        </div><div class=\"carousel-item active\">\n                            <img src=\"@PROJECT_PATH@/assets/images/table.jpg\" alt=\"\" title=\"\">\n                        </div>\n                    </div>\n                    <a class=\"swiper-arrow-left swiper-arrow type-1\" role=\"button\" data-slide=\"prev\" href=\"#lb-gallery1-6\">\n                        <img alt=\"\" src=\"@PROJECT_PATH@/assets/images/arrow-left.svg\">\n                    </a>\n                    <a class=\"swiper-arrow-right swiper-arrow type-1\" role=\"button\" data-slide=\"next\" href=\"#lb-gallery1-6\">\n                        <img alt=\"\" src=\"@PROJECT_PATH@/assets/images/arrow-right.svg\">\n                    </a>\n\n                    <a class=\"close\" href=\"#\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\">×</span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
         },
         {
           "_params": {
@@ -494,116 +520,12 @@
             "Tema"
           ],
           "_name": "content3",
-          "_anchor": "content3-b"
-        },
-        {
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 0,
-            "showTitle": true,
-            "showSeparator": true,
-            "showSubtitle": false,
-            "showText": true,
-            "showButtons": false,
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#151515",
-            "overlayOpacity": 0.75
-          },
-          "title": "<span style=\"font-weight: normal;\"><i>Acquista</i></span>",
-          "subtitle": "Subtitle",
-          "text": "Potete acquistare diversi pacchetti oppure potete scegliere il pacchetto completo.<br>Il costo che trovate nelle seguenti tabelle si riferisce alle lezioni comprensive dei file e materiali di studio.<br>Ciascun pacchetto comprende dalle 30 alle 35 lezioni, per un totale di 100 videocorsi.<br>La licenza ha validitá annuale. Potete richiedere una prova gratuita di compilando il<b> <a href=\"index.html#header2-1\">form</a> </b>a fondo pagina<b>.</b><br><br>",
-          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
-          "alias": "spacem/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "title4",
-          "_anchor": "title4-j"
-        },
-        {
-          "_styles": {
-            ".mbr-section__container .mbr-section-title": {
-              "color": "#fff"
-            },
-            ".mbr-section__container .mbr-section-subtitle": {
-              "color": "#a0a0a0"
-            },
-            ".mbr-price-figure": {
-              "font-size": "60px"
-            }
-          },
-          "_params": {
-            "firstType": "",
-            "secondType": "",
-            "thirdType": "",
-            "fourthType": "bg-primary",
-            "paddingTop": "2",
-            "paddingBottom": 3,
-            "showButtons": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1081-2000x2310.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#757575",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title1": "CORSO 1<br>gonne e pantaloni",
-          "title2": "CORSO 2<br>corpini e abiti",
-          "title3": "CORSO 3<br>camicie&nbsp;",
-          "title4": "TUTTI I CORSI",
-          "subtitle1": "Description",
-          "subtitle2": "Description",
-          "subtitle3": "Description",
-          "subtitle4": "Description",
-          "label1": "Most Popular",
-          "label2": "Most Popular",
-          "label3": "Most Popular",
-          "label4": "Piú acquistato",
-          "currency1": "",
-          "currency2": "",
-          "currency3": "",
-          "currency4": "",
-          "price1": "120 €",
-          "price2": "150&nbsp;€",
-          "price3": "180&nbsp;€<br>",
-          "price4": "<span style=\"font-weight: normal;\">400&nbsp;€</span>",
-          "period1": "",
-          "period2": "",
-          "period3": "",
-          "period4": "anziché 450&nbsp;€<br>",
-          "description1": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "description2": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "description3": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "description4": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Il corso 1 comprende il programma scolastico del primo e secondo anno.\n</li><li class=\"list-group-item\">Compila il form per richiedere la&nbsp;</li><li class=\"list-group-item\"><b><a href=\"index.html#header2-1\">Prova GRATIS</a></b></li><li class=\"list-group-item\">Totale 30 lezioni</li></ul>",
-          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Il corso 2 comprende il programma scolastico affrontato il terzo anno. </li><li class=\"list-group-item\">Compila il form per richiedere la&nbsp;</li><li class=\"list-group-item\"><span style=\"background-color: transparent;\"><b><a href=\"index.html#subscribe2-11\">Prova GRATIS</a></b></span></li><li class=\"list-group-item\"><span style=\"background-color: transparent;\">Totale 35 lezioni</span><br></li></ul>",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Il corso 3 comprende il programma scolastico del quarto e quinto anno.</li><li class=\"list-group-item\">Compila il form per richiedere la&nbsp;</li><li class=\"list-group-item\"><b><a href=\"index.html#subscribe2-11\">Prova GRATIS</a></b></li><li class=\"list-group-item\">Totale 35 lezioni</li></ul>",
-          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">Il pacchetto include le chiavi di accesso a tutti e tre i corsi, dal primo al quinto anno scolastico.</li><li class=\"list-group-item\"><br></li><li class=\"list-group-item\">Totale 100 lezioni</li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=120&amp;item_name=CORSO1&amp;currency_code=EUR\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">ACQUISTA</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=150&amp;item_name=CORSO2&amp;currency_code=EUR\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">ACQUISTA</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=180&amp;item_name=CORSO3&amp;currency_code=EUR\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">acquista</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=400&amp;item_name=TUTTI+I+CORSI&amp;currency_code=EUR\" class=\"btn btn-black\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">ACQUISTA</a>",
-          "alias": "spacem/components",
-          "_tags": [
-            "Tema"
-          ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-i"
+          "_anchor": "content3-b",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative content3\" data-rv-view=\"259\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/1081-2000x2310.jpg&quot;);\">\n        <div class=\"mbr-overlay\" style=\"opacity: 0.75; background-color: rgb(255, 255, 255);\"></div>\n    <div id=\"contact-info\" style=\"padding-top: 100px; padding-bottom: 100px;\">\n        <div class=\"container\">\n            <div class=\"row\">\n\n                <div class=\"col-xs-12\">\n                    \n                    <div class=\"row clear-md\">\n                        \n                        <div class=\"mbr-cards-col col-xs-12 col-sm-6 col-md-3\">\n                            <div class=\"c-info\">\n                                <div class=\"image\"><a href=\"index.html#pricing-table1-i\" class=\"mbri-timer mbr-iconfont\"></a></div>\n                                <h4 class=\"mbr-section-text mbr-editable-content\" code-editable-id=\"22\">quando e dove vuoi</h4>\n                            </div>\n                                <p class=\"mbr-section-text mbr-editable-content\" code-editable-id=\"23\">Decidi tu quando e dove studiare e <br>seguire le videolezioni: puoi farlo<br><strong> 24 ore su 24 -7 giorni su 7&nbsp;</strong></p>\n                        </div>\n\n                        <div class=\"mbr-cards-col col-xs-12 col-sm-6 col-md-3\">\n                            <div class=\"c-info\">\n                                <div class=\"image\"><a href=\"index.html#pricing-table1-i\" class=\"mbri-file mbr-iconfont\"></a></div>\n                                <h4 class=\"mbr-section-text mbr-editable-content\" code-editable-id=\"24\">materiali</h4>\n                            </div>\n                                <p class=\"mbr-section-text mbr-editable-content\" code-editable-id=\"25\">Scaricherai esercitazioni e<strong> file</strong> molto utili che potrai utilizzare per apprendere in maniera piú completa e veloce</p>\n                        </div>\n\n                        <div class=\"mbr-cards-col col-xs-12 col-sm-6 col-md-3\">\n                            <div class=\"c-info\">\n                                <div class=\"image\"><a href=\"index.html#pricing-table1-i\" class=\"mbri-info mbr-iconfont\"></a></div>\n                                <h4 class=\"mbr-section-text mbr-editable-content\" code-editable-id=\"26\">docente personale</h4>\n                            </div>\n                                <p class=\"mbr-section-text mbr-editable-content\" code-editable-id=\"27\">Avrai a tua completa disposizione un Docente altamente qualificato che potrai <strong>contattare in ogni momento</strong></p>\n                        </div>\n\n                        <div class=\"mbr-cards-col col-xs-12 col-sm-6 col-md-3\">\n                            <div class=\"c-info\">\n                                <div class=\"image\"><a href=\"index.html#pricing-table1-i\" class=\"mbri-cash mbr-iconfont\"></a></div>\n                                <h4 class=\"mbr-section-text mbr-editable-content\" code-editable-id=\"28\">&nbsp;economico</h4>\n                            </div>\n                                <p class=\"mbr-section-text mbr-editable-content\" code-editable-id=\"29\">Non spenderai piú tanti soldi in ripetizioni! <strong>Risparmierai</strong> &nbsp;per poter fare tante altre cose divertenti.<strong>&nbsp;&nbsp;</strong></p>\n                        </div>\n\n                    </div>\n\n                </div>\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
         },
         {
           "_params": {
@@ -798,11 +720,11 @@
           ],
           "_name": "subscribe2",
           "_anchor": "subscribe2-11",
-          "_styles": {
-            "H1": {
-              "text-align": "left"
-            }
-          }
+          "_customHTML": "<section class=\"mbr-section mbr-section--bg-adapted mbr-section--relative subscribe subscribe2\" data-bg-video=\"https://www.youtube.com/embed/NqagdshRCwo?rel=0&amp;amp;showinfo=0&amp;autoplay=0&amp;loop=0\" data-rv-view=\"274\">\n        \n    <div id=\"contact-info\" style=\"padding-top: 50px; padding-bottom: 200px;\">\n        <div class=\"container\">\n            <div class=\"row\">\n                 \n                <div class=\"col-lg-5 col-md-12 col-sm-12 col-xs-12\">\n                   <div class=\"page_head text-left title-block\">\n                      <h1 class=\"styled mbr-editable-content\" code-editable-id=\"30\"><span style=\"font-weight: normal;\">Prova Gratuita</span></h1>\n                      <div class=\"separator\"></div>\n                      \n\n                      <div data-form-type=\"formoid\">\n                          <div data-form-alert=\"true\">\n                              <div hidden=\"\" data-form-alert-success=\"true\">Thanks for filling out form!</div>\n                          </div>\n\n                          <form action=\"https://mobirise.com/\" method=\"post\" data-form-title=\"Prova Gratuita\">\n\n                              <input type=\"hidden\" value=\"BXeJAsY3COE6NSP43bxbCmoVcFf2+IX1leizFgGqkG9d7Lo2hpX4DyNUPHbGGLn7x7x6UhiIekOiXAYopQ5zj50KwxFm1gaYRfBVl/KB7e/lTlI6JkBQM11QhgtuVQ4f\" data-form-email=\"true\">\n\n                              <div class=\"form-group\">\n                                  <label class=\"form-control-label\">Nome*</label>\n                                  <input type=\"text\" class=\"form-control input-sm input-inverse\" name=\"name\" required=\"\" data-form-field=\"Name\" placeholder=\"Nome*\">\n                              </div>\n\n                              <div class=\"form-group\">\n                                  <label class=\"form-control-label\">Email*</label>\n                                  <input type=\"email\" class=\"form-control input-sm input-inverse\" name=\"email\" required=\"\" data-form-field=\"Email\" placeholder=\"Email*\">\n                              </div>\n\n                              <div class=\"form-group\">\n                                  <label class=\"form-control-label\">Codice fiscale*</label>\n                                  <input type=\"tel\" class=\"form-control input-sm input-inverse\" name=\"phone\" data-form-field=\"Phone\" placeholder=\"Codice fiscale*\">\n                              </div>\n\n                              <div class=\"form-group\">\n                                  <label class=\"form-control-label\">Richieste paricolari</label>\n                                  <textarea class=\"form-control input-sm input-inverse\" name=\"message\" data-form-field=\"Message\" rows=\"3\" placeholder=\"Richieste paricolari\"></textarea>\n                              </div>\n\n                              <div class=\"buttons-wrap\"><button href=\"mailto:naomimoda94@hotmail.it\" class=\"btn btn-black mbr-editable-button\" type=\"submit\" role=\"button\" code-editable-id=\"31\">richiedi</button></div>\n\n                          </form>\n\n                      </div>\n\n                    </div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "H1 {\n  text-align: left;\n}\n",
+          "_customTemplate": true
         },
         {
           "_params": {
@@ -920,7 +842,7 @@
               "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#fff"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
               "color": "#757575",
@@ -946,13 +868,13 @@
             "logo": true,
             "sticky": true,
             "transparent": false,
-            "bgColor": "#fff",
+            "bgColor": "#ffffff",
             "fontSize": "0.7",
             "fontName": {},
             "fontColor": "#757575",
             "fontHoverColor": "#222"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-5\">SCUOLE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-a\">GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-9\">VANTAGGI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-j\">ACQUISTA</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-k\">FAQ</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">MEMBRI</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://corsomoda1.imoana.it/\" target=\"_blank\">CORSO 1</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">CORSO 2</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">CORSO 3</a></div></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-5\">SCUOLE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-a\">GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-9\">VANTAGGI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" target=\"_blank\">SEGUI IL CORSO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" target=\"_blank\">ISTRUZIONI ISCRIZIONE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-k\">FAQ</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -971,6 +893,657 @@
           ],
           "_name": "menu1",
           "_anchor": "menu1-p"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Segui il corso",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1081-2000x2310.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.7"
+          },
+          "title": "<span style=\"font-weight: normal;\">Elenco</span> Video",
+          "text1": "<a href=\"page1.html#custom-html-19\">Gonna Base</a><br><a href=\"page1.html#custom-html-1v\">Pantalone Base</a><br>Giacca base<br>eccetera<br>eccetera",
+          "text2": "Gonna Base\n<br>Pantalone Base\n<br>Giacca base\n<br>eccetera\n<br>eccetera",
+          "text3": "Gonna Base\n<br>Pantalone Base\n<br>Giacca base\n<br>eccetera\n<br>eccetera",
+          "text4": "Gonna Base\n<br>Pantalone Base\n<br>Giacca base\n<br>eccetera\n<br>eccetera",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "text2",
+          "_anchor": "text2-1x"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "showTitle": true,
+            "showSeparator": true,
+            "showSubtitle": false,
+            "showText": false,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Video 01&nbsp;</i></span>Gonna Base",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-1i"
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#212121"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "<a href=\"#top\">TORNA SU</a><br><br><br>&nbsp;<br><span style=\"font-weight: normal;\"><a href=\"https://imoana.it\" target=\"_blank\" class=\"text-success\">2018 IMOANA</a></span><br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer2",
+          "_styles": {
+            "SPAN": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "footer2-17"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#757575"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#757575"
+            },
+            ".link, .dropdown-item": {
+              "color": "#757575"
+            },
+            ".link": {
+              "font-size": "0.7rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.758rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#757575",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#757575"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#757575",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-5\">SCUOLE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-a\">GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-9\">VANTAGGI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" target=\"_blank\">SEGUI IL CORSO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" target=\"_blank\">ISTRUZIONI ISCRIZIONE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-k\">FAQ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/inizio-logo-1piccolo-247x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://corsomoda.imoana.it",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-18"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<figure class=\"mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width\"><iframe src=\"https://embed.pivotshare.com?media_id=75492&amp;channel_id=11985\" width=\"854\" height=\"480\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></figure>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Estensioni"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-19",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1081-2000x2310.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.8"
+          },
+          "title": "In questo video",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eaque, nesciunt corporis atque eius vero doloremque, dolor voluptas ut voluptates fugit excepturi consequuntur recusandae magni, a nulla architecto quo repudiandae eum molestiae quidem libero odit sint. Recusandae maxime ut illo accusantium aut voluptatibus et quod dicta rerum praesentium alias aspernatur neque magnam reiciendis adipisci nesciunt in debitis maiores iure, mollitia impedit repudiandae quis. Blanditiis laborum explicabo asperiores sint quidem ex ipsam libero, deserunt pariatur eius expedita neque at aliquid voluptate esse unde molestias! Possimus id fuga nostrum dolore quo dolores, eos voluptatem, repellat nulla eligendi facilis deleniti, inventore quae officia.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-1j"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "showTitle": true,
+            "showSeparator": true,
+            "showSubtitle": false,
+            "showText": false,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "<span style=\"font-weight: normal;\"><i>Video 01&nbsp;</i></span>Gonna Base",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-1u"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<figure class=\"mbr-figure mbr-figure--adapted mbr-figure--caption-inside-bottom mbr-figure--full-width\"><iframe src=\"https://embed.pivotshare.com?media_id=75492&amp;channel_id=11985\" width=\"854\" height=\"480\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\"></iframe></figure>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Estensioni"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1v",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "In questo video",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eaque, nesciunt corporis atque eius vero doloremque, dolor voluptas ut voluptates fugit excepturi consequuntur recusandae magni, a nulla architecto quo repudiandae eum molestiae quidem libero odit sint. Recusandae maxime ut illo accusantium aut voluptatibus et quod dicta rerum praesentium alias aspernatur neque magnam reiciendis adipisci nesciunt in debitis maiores iure, mollitia impedit repudiandae quis. Blanditiis laborum explicabo asperiores sint quidem ex ipsam libero, deserunt pariatur eius expedita neque at aliquid voluptate esse unde molestias! Possimus id fuga nostrum dolore quo dolores, eos voluptatem, repellat nulla eligendi facilis deleniti, inventore quae officia.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-1w"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "istruzioni iscrizione",
+        "order": 2
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showSeparator": true,
+            "showSubtitle": false,
+            "showText": false,
+            "showButtons": false,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1081-2000x2310.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.75
+          },
+          "title": "<span style=\"font-style: italic; font-weight: normal;\">Istruzioni per la </span>registrazione",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quis quidem laboriosam, enim rem nobis ab laudantium. Aliquam, ipsum, impedit accusantium ex cum facilis ut tempora vero nesciunt mollitia ullam, quisquam quia cupiditate esse repudiandae. Vero nisi velit sint minima et adipisci culpa iusto ea obcaecati! Voluptatibus consectetur nulla, asperiores.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "title4",
+          "_anchor": "title4-27"
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#212121"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "<a href=\"#top\">TORNA SU</a><br><br><br>&nbsp;<br><span style=\"font-weight: normal;\"><a href=\"https://imoana.it\" target=\"_blank\" class=\"text-success\">2018 IMOANA</a></span><br>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "footer2",
+          "_styles": {
+            "SPAN": {
+              "font-size": "12px"
+            }
+          },
+          "_anchor": "footer2-1y"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#757575"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#757575"
+            },
+            ".link, .dropdown-item": {
+              "color": "#757575"
+            },
+            ".link": {
+              "font-size": "0.7rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.758rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#757575",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#757575"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "0.7",
+            "fontName": {},
+            "fontColor": "#757575",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-5\">SCUOLE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-a\">GALLERY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-9\">VANTAGGI</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" target=\"_blank\">SEGUI IL CORSO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\" target=\"_blank\">ISTRUZIONI ISCRIZIONE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#title4-k\">FAQ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/inizio-logo-1piccolo-247x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://corsomoda.imoana.it",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-1z"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": "1",
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": 5,
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/header1-slide5.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "title": "Guarda<i style=\"font-weight: normal;\"> la </i><span style=\"font-weight: normal;\"><i>preview</i></span>",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, nesciunt vitae cum tempore, rem repudiandae adipisci libero ratione illum! Veniam placeat autem corporis sapiente doloribus.",
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">segui il corso</a>",
+                "overlayOpacity": "0.6"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/header1-slide6.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "title": "Scegli&nbsp;<em>il piano</em>",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam tenetur repellat veniam enim sed molestiae dolorum eum, iusto aspernatur quos earum obcaecati, ratione dolorem fuga.",
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">segui il corso</a>",
+                "overlayOpacity": "0.6"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/header1-slide7.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "title": "Isciviti&nbsp;<em>con i tuoi dati</em>",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam illum, adipisci autem provident ut. Ex eius voluptates, nihil accusantium optio tenetur sit quam eaque eum.",
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">segui il corso</a>",
+                "overlayOpacity": "0.6"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/header1-slide8.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+                "title": "Goditi&nbsp;<em>le videolezioni!</em>",
+                "overlay": true,
+                "contentAlign": "left",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum ipsa natus vero voluptatibus, at, alias eaque aliquam dolores omnis velit reprehenderit beatae aperiam ipsum similique.",
+                "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\" data-toolbar=\"-mbrBtnMove\">segui il corso</a>",
+                "overlayOpacity": "0.6"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg",
+          "alias": "spacem/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "slider2",
+          "_anchor": "slider2-2a"
         }
       ]
     }
